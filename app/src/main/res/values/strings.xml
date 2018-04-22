@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">ProgrammersFolly</string>
+    <string name="category_of_errors">There are five general categories of programming errors: syntax,
+    semantic, logical, compile time, and runtime errors. </string>
+
+    <string name="errors_definition">Syntax errors are caused by an incorrect
+        sequence of characters that are intended to be written in a particular programming language.
+    Semantic errors refer to valid code the compiler understands, but they
+    do not do what you intended. Logical errors are errors inherited from a flaw in
+    the base algorithm, making the logic on which the program is based on false.
+        Compile time errors are the result of syntax errors and semantic errors
+        indicated by the compiler. Runtime errors refer to more semantic errors and logical errors
+        that cannot be detected by the compiler.</string>
+
+    <string name="general_tab">General</string>
+    <string name="syntax_tab">Syntax</string>
+    <string name="semantic_tab">Semantic</string>
+    <string name="logical_tab">Logical</string>
+
+    <string-array name="syntax_errors">
+        <item>Case-Sensitive Errors with Classes</item>
+        <item>Using Incorrect Capitalization</item>
+        <item>Splitting String Over Two Lines</item>
+        <item>Misspelled Variable and Function Names</item>
+        <item>Misspelled Keywords</item>
+        <item>Missing Parentheses</item>
+        <item>Missing Semicolons</item>
+        <item>Missing Curly Braces</item>
+        <item>Mistyping Header in main() Method</item>
+        <item>Multiplying String with Integer</item>
+        <item>Forgetting to Import Class</item>
+        <item>Forgetting Class or Object Name in Method Call</item>
+        <item>Forgetting Break in Switch Statement</item>
+        <item>Forgetting Return Statement in Method Declaration</item>
+        <item>Improperly Matching Parentheses, Square Brackets, Braces</item>
+        <item>Incorrect Format in Selection and Loop Statements</item>
+        <item>Unclosed String Literal</item>
+        <item>Using Static Method as Instance Method</item>
+        <item>Inconsistent Variable Names</item>
+        <item>Illegal Character in Input</item>
+        <item>Missing Operators</item>
+        <item>Two Operators in a Row</item>
+        <item>Two Statements on Same Line Without Intervening Semicolon</item>
+    </string-array>
+
+    <string-array name="semantic_errors">
+        <item>Applying Scope Incorrectly</item>
+        <item>Array Index Out of Range</item>
+        <item>Assuming "==" means Value Equality</item>
+        <item>Converting Double to Float Without Explicit Type Cast</item>
+        <item>Endless Loop</item>
+        <item>Errors in Expression</item>
+        <item>Forgetting Void in Method Declaration</item>
+        <item>Forgetting Break from Case Statement</item>
+        <item>Forgetting Return in a Method</item>
+        <item>Losing Precision During Conversion</item>
+        <item>Parameter of Wrong Type Passed to Function</item>
+        <item>Unknown References</item>
+        <item>Using Non-Initialized Variable</item>
+        <item>Using Inapplicable Operators</item>
+        <item>Type Incompatibility</item>
+        <item>Doing Impossible Cast</item>
+    </string-array>
+
+    <string-array name="logical_errors">
+        <item>Adding Instead of Subtracting</item>
+        <item>Dividing Integer By Zero</item>
+        <item>Displaying Wrong Message</item>
+        <item>Misplacing Semicolons</item>
+        <item>Multiplying Instead of Dividing</item>
+        <item>Opening and Using Data from Wrong File</item>
+        <item>Opening Nonexistent File</item>
+        <item>Incorrect Operator Precedence</item>
+        <item>Defining the Wrong Count</item>
+        <item>Assuming a Condition is True</item>
+        <item>Relying on Floating Point Numbers for Precision</item>
+        <item>Relying on Integer Values to Measure Variables</item>
+        <item>Using Null Object to Reference Object's Number</item>
+        <item>Storing Value of Incompatible Data Type</item>
+    </string-array>
+
+</resources>
